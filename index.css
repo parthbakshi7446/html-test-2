@@ -1,0 +1,30 @@
+#main-box{
+    border:1px solid black;
+    border-radius: 50px  ;
+    height:50px;
+    width:130px;
+    
+}
+#button{
+    position: relative;
+    height:100%;
+    width:100%; 
+    display: flex;
+    align-items: center;
+}
+#slider{
+    border:2px solid black;
+    border-radius: 50%;
+    width:45px; 
+    position: absolute;
+    top:1px;
+    left:1px;
+    height:42px;
+    transition: 1s;
+}
+#this{
+    display: none;
+}
+#this:checked+ #slider{
+    left:78px;
+}
